@@ -1,0 +1,13 @@
+@use 'variaveis';
+@use 'layout';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: variaveis.$fontePrincipal;
+}
+
+body {
+    background-color: variaveis.$corFundo;
+}
